@@ -1,0 +1,8 @@
+{"cards": [
+	{"cost":"0", "name":"upgrades", "tag":["Custom","Space"], "resources":["Titanium"], "resource_generation_remove":["MegaCredit"], "abilities":["ValuableResources"]},
+	{"cost":"0", "name":"land dwellers", "tag":["Custom","Plant","Building"], "resource_generation_add":["Steel"], "abilities":["Place_City","Place_Greenery"]},
+	{"cost":"0", "name":"second life", "tag":["Custom"], "resources_add":["Steel","Titanium"], "abilities":["Prelude"]},
+	{"cost":"0", "name":"community garden", "tag":["Custom","Space"], "resources_add":["Plant","Heat"], "resource_generation_add":["Energy"], "abilities":["Prelude"]},
+	{"cost":"0", "name":"experienced mentors", "tag":["Custom"], "points":"5"},
+
+]}

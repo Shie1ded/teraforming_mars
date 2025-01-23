@@ -1,0 +1,63 @@
+{
+	"can_load":1,
+	"game":{
+		quickSetup:0,
+		corporate_era:0,
+		prelude:0,
+		custom:1,
+		num_new_cards:4,
+		deck:["cardname1","cardname2"],
+		discard:["cardname3","cardname4"],
+		preludes:["preludename1","preludename2"],
+		prelude_discard:["preludename3","preludename4"],
+	
+	},
+	"board":{
+		current_generation:0,
+		maximum_generation:100,
+		water:0,
+		oxygen:0,
+		temperature:-30,
+		board:[
+			{
+				owner:1,		// player number
+				bonusResources:["MegaCredit", "Plant"],
+				name:"mons",
+				designated_water:0,
+				designated_city:1,
+				city_adjacent:1,
+				TileType:"City"
+			},		// for every tile
+			{}
+		]
+	},
+	"awards":{
+		funded:["Landlord","Banker"],		// maximum 3
+		taken:["Terraformer","Mayor"],		// maximum 3
+		taken_players:[1,2],				// player number, must match taken size
+	}
+	"players":[{
+		number:1,
+		terraform_rating:20,
+		company:"company_name",
+		generation:[
+			MegaCredit:4,
+			Steel:0,
+			...
+		],
+		resources:[
+			MegaCredit: 12,
+			Steel:5,
+			...
+		],
+		hand:["cardname1","cardname2"],
+		played:[{
+				name:"cardname1",
+				counter:4						// if the card has counters, add it
+			},
+			{}
+		],
+		permanent_abilities:["ability1","ability2"],
+		end_of_game_abilities:["ability3","ability4"]
+	}]
+}

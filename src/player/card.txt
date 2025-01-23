@@ -1,0 +1,49 @@
+All of the different attributes you can give to a card
+
+"cost":"1",
+"name":"card_name",
+"points":"1",
+"min_oxygen":"7",
+"max_oxygen":"7",
+"min_water":"5",
+"max_water":"5",
+"min_temperature":"-12",
+"max_temperature":"-12",
+"min_tags":["Building","Space","Science","Plant","Microbe",
+	"Animal","Power","Jovian","Earth","City","Event"],
+"action_card":"true",
+"abilities":[],
+"activated_abilities":[],
+"tag":["Building","Space","Science","Plant","Microbe",
+	"Animal","Power","Jovian","Earth","City","Event"],
+"resources_add":["MegaCredit","Steel","Titanium","Plant",
+	"Energy","Heat","Card"],
+"resources_remove":["MegaCredit","Steel","Titanium","Plant",
+	"Energy","Heat","Card"],
+"resources_remove_global":["MegaCredit","Steel","Titanium","Plant",
+	"Energy","Heat","Card"],
+"resource_generation_add":["MegaCredit","Steel","Titanium","Plant",
+	"Energy","Heat","Card"],
+"resource_generation_remove":["MegaCredit","Steel","Titanium","Plant",
+	"Energy","Heat","Card"],
+"resource_generation_remove_global":["MegaCredit","Steel","Titanium","Plant",
+	"Energy","Heat","Card"]
+	
+	
+	
+Flagged Abilities (unfinished):
+1. Add_Animal_Counter - need to add animal counter mechanic
+2. Place_Noctis_City, Place_Phobos_Space_Haven - need to add "player owning city" mechanic
+
+
+How to add abilities
+1. Create a new ability in the Ability.java file (try to organize it)
+2. Go to abilities file.
+	2.1 add a description
+	2.2 add it in the activate function
+		If it is a one-time function, make it return false. Otherwise make it a boolean and copy the boolean code
+	2.3 determine if you need a validator (ie a condition that must be met to play the card, only if it is a non-repeating card)
+	2.4 if you need a validator, go to hasRequirement, add it, return false
+		Then go to the satisfiesRequirement, add a row there
+		Then go to AbilityRequirements and add a function to check if it can be satisfied.
+3. Test it

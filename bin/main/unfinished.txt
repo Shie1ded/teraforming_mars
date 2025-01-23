@@ -1,0 +1,40 @@
+List of functions that are unfinished:
+
+
+Small Changes:
+1. Single player - if prelude, they only have 12 generations and they must get 63 terraform points (new ability to gain terraform points)
+2. Single player resource-deduction cards
+3. Single player - they cannot apply for awards or milestones
+4. When purchasing cards, should be a "purchase all" ('a')
+5. When showing inventory, should convert the steel / titanium into their effective cost
+6. Can sell patents infinite number of times (first time it counts as an action, after that it doesn't)
+7. Single player - show generations left (generation 1 / 14)
+8. Single player - if they pass, pass all other turns
+9. Single player - don't show player banners
+10. When purchasing cards of multiple resource types, if the card is free, skip the entire process
+11. Always see how much momey you have (click "M")
+
+Big Changes
+1. Ability to show resources when placing a custom tile
+2. Ability to save and load the game
+3. Add colour to print statements (by player, and remove all error colours)
+4. Playing cards: if you cannot play them, colour out the reason why
+
+
+Bugs:
+1. MegaCredit_Search_Microbe not working
+
+Optional Changes:
+1. UI in class Runner
+
+
+Custom global resource deduction abilities (to change for single player game mode)
+1. Sabotage
+
+
+Untested: end of game functions
+Untested: counters (counter points at end of game)
+
+List of all cards: https://ssimeonoff.github.io/cards-list
+
+

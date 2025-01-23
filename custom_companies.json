@@ -1,0 +1,10 @@
+{"companies": [
+	{"name":"celestic", "megacredits":"42", "tag":["Custom"], "abilities":["Celestic","AddFloater","DrawCounterCards"]},
+	{"name":"manutech", "megacredits":"35", "tag":["Custom","Building"], "resources":["Steel"], "resource_generation":["Steel"], "abilities":["Manutech"]},
+	{"name":"viron", "megacredits":"48", "tag":["Custom","Microbe"], "abilities":["Viron"]},
+	{"name":"polyphemos", "megacredits":"50", "tag":["Custom"], "resource_generation":["MegaCredit","MegaCredit","MegaCredit","MegaCredit","MegaCredit"], "resources":["Titanium","Titanium","Titanium","Titanium","Titanium"], "abilities":["Polyphemos"]},
+	{"name":"terralabs", "megacredits":"15", "tag":["Custom","Science","Earth"], "abilities":["Terralabs"]},
+	{"name":"solaris", "megacredits":"38", "resources":["Heat","Heat","Heat","Heat","Heat"], "resource_generation":["Heat","Energy"], "tag":["Custom","Jovian"], "abilities":["Heat_to_Resource"]},
+	{"name":"outer research ltd", "megacredits":"46", "resources":["Titanium","Titanium","Titanium","Titanium"], "tag":["Custom","Space"], "abilities":["OuterResearch"]},
+
+]}

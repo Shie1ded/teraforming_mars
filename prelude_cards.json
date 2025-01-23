@@ -1,0 +1,9 @@
+{"cards": [
+	{"cost":"10", "name":"house printing", "tag":["Building"], "resource_generation_add":["Steel"], "points":"1"},
+	{"cost":"15", "name":"lava tube settlement", "tag":["City","Building"], "resource_generation_add":["MegaCredit","MegaCredit"], "resource_generation_remove":["Energy"], "abilities":["Place_Volcano_City"]},
+	{"cost":"9", "name":"martian survey", "max_oxygen":"4", "tag":["Science","Event"], "resources_add":["Card","Card"], "points":"1"},
+	{"cost":"2", "name":"psychrophiles", "max_temperature":"-20", "tag":["Microbe"], "counter_type":"Microbe", "abilities":["Psychrophiles"], "activate_abilities":["Add_Psychrophiles"]},
+	{"cost":"4", "name":"research coordination", "tag":["Building","Space","Science","Plant","Microbe","Animal","Power","Jovian","Earth","City","Event","Custom"]},
+	{"cost":"7", "name":"sf memorial", "tag":["Building"], "resources_add":["Card"], "points":"1"},
+	{"cost":"12", "name":"space hotels", "min_tags":["Earth","Earth"], "tag":["Earth","Space"], "resource_generation_add":["MegaCredit","MegaCredit","MegaCredit","MegaCredit"]}
+]}

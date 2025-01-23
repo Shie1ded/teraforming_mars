@@ -1,0 +1,4 @@
+{"companies": [
+	{"name":"teractor", "megacredits":"60", "tag":["Earth"], "abilities":["EarthDiscount"]},
+	{"name":"saturn systems", "megacredits":"42", "resource_generation":["Titanium","MegaCredit"], "tag":["Jovian"], "abilities":["SaturnSystem"]}
+]}

@@ -1,0 +1,7 @@
+{"companies": [
+	{"name":"cheung shing", "megacredits":"44", "tag": ["Building"], "resource_generation":["MegaCredit","MegaCredit","MegaCredit"], "abilities":["BuildingDiscount"]},
+	{"name":"point luna", "megacredits":"38", "tag": ["Earth","Space"], "resource_generation":["Titanium"], "abilities":["PointLuna"], "resources":["Card"]},
+	{"name":"robinson industries", "megacredits":"51", "abilities":["Robinson"]},
+	{"name":"vitor", "megacredits":"48", "abilities":["FundAward","Vitor"]},
+	{"name":"valley trust", "megacredits":"37", "abilities":["Prelude","ScienceDiscount"]}
+]}

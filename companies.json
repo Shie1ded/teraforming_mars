@@ -1,0 +1,12 @@
+{"companies": [
+	{"name":"credicor", "megacredits":"57", "abilities":["Credicor"]},
+	{"name":"ecoline", "megacredits":"36", "resources": ["Plant","Plant","Plant"], "resource_generation":["Plant","Plant"], "abilities":["Ecoline"]},
+	{"name":"helion", "megacredits":"42", "resource_generation":["Heat","Heat","Heat"], "abilities":["PayWithHeat"]},
+	{"name":"mining guild", "megacredits":"30", "tag": ["Building","Building"], "resources": ["Steel","Steel","Steel","Steel","Steel"], "resource_generation":["Steel"], "abilities":["Mining"]},
+	{"name":"interplanetary cinematics", "megacredits":"30", "tag": ["Building"], "resources": ["Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel","Steel"], "abilities":["EventMegaCredit2"]},
+	{"name":"x inventrix", "megacredits":"45", "tag": ["Science"], "resources": ["Card","Card","Card"], "abilities":["Global_Parameter"]},
+	{"name":"phobolog", "megacredits":"23", "tag": ["Science"], "resources": ["Titanium","Titanium","Titanium","Titanium","Titanium","Titanium","Titanium","Titanium","Titanium","Titanium"], "abilities":["ValuableResources"]},
+	{"name":"tharsis republic", "megacredits":"40", "tag": ["Building"], "abilities":["ImmigrantCity","Tharsis","Place_City"]},
+	{"name":"thorgate", "megacredits":"48", "tag": ["Power"], "resource_generation":["Energy"], "abilities":["Thorgate"]},
+	{"name":"united nations mars initiative", "megacredits":"48", "tag": ["Earth"], "abilities":["UNMI"]}
+]}
